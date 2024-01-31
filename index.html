@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="tabs">
+            <div class="tab_header">
+                <ul  class="list_items" >
+                    <li class="list_item active" onmouseover="myFun(event,'London',this)" >London</li>
+                    <li class="list_item"  onmouseover="myFun(event,'Paris',this)">Paris</li>
+                    <li class="list_item" onmouseover="myFun(event,'Tokyo',this)">Tokyo</li>
+                </ul>
+            </div>
+            <div class="tabDesc_wrap">
+                <div class="tabDesc" id="London" style="display:block">
+                    <div class="title">London</div>
+                    <div class="desc">London is the City of UK</div>
+                </div>
+                <div class="tabDesc" id="Paris">
+                    <div class="title">Paris</div>
+                    <div class="desc">Paris is the City of France</div>
+                </div>
+                <div class="tabDesc" id="Tokyo">
+                    <div class="title">Tokyo</div>
+                    <div class="desc">Tokyo is the City of Japan</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
